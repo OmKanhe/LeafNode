@@ -25,6 +25,37 @@ A simple Notes Taking app built using **React**, **Firebase**, and **Vite**. Thi
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/OmKanhe/LeafNode.git
+```
+### 2. Install Dependencies
+
+```bash
+cd Ecowiser Assignment
+npm install
+```
+
+### 3. Set up Firebase
+
+1. Go to the Firebase Console.
+2. Create a new project or use an existing one.
+3. Add a web app to the Firebase project.
+4. In the Project settings, find your Firebase configuration and copy it.
+5. Create a .env file in the root of your project and add the following Firebase credentials:
+
+```bash
+VITE_FIREBASE_API_KEY=your-api-key
+VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+VITE_FIREBASE_APP_ID=your-app-id
+```
+
+ ### 4. Run the App
+```bash
+npm run dev
+```
+This will start the app at http://localhost:5173.
+
 
 
