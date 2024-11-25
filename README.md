@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Notes Taking App
 
 A simple Notes Taking app built using **React**, **Firebase**, and **Vite**. This app allows users to create, update, delete, and pin notes with pagination support.
